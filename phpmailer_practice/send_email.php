@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] = 'POST'){
         $mail -> SMTPAuth = true;
         $mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail -> Username = 'zainab.rd.93@gmail.com';
-        $mail -> Password = 'afwl rbfb lnkc yppk';
+        $mail -> Password = '';
 
 
         $mail -> setFrom('test@test.com',$name);
