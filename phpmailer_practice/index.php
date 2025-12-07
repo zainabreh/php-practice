@@ -37,7 +37,7 @@
             <textarea class="form-control" id="exampleInputPassword1" name="message"></textarea>
         </div>
 
-        <label for="formFile" class="form-label">Upload Image</label>
+        <label for="formFile" class="form-label">Add attachment</label>
         <input type="file" class="form-control mb-3" name="attachment" id="formFile">
 
         <button type="submit" class="btn btn-primary">Submit</button>

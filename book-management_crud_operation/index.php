@@ -49,8 +49,12 @@
             <td>'.$book['author'].'</td>
             <td>'.$book['type'].'</td>
               <td>
-              <a href="detailPage.php"><button type="button" class="btn btn-info">Read More</button></a>
+              <a href="detailPage.php?id='.$book["id"].'"><button type="button" class="btn btn-info">Read More</button></a>
+            
+
               <a href="editBook.php?id='.$book["id"].'"><button type="button" class="btn btn-warning">Edit</button></a>
+
+              
               <a href="deleteBook.php?id='.$book["id"].'"><button type="button" class="btn btn-danger" name="delete">Delete</button></a>
           </td>
             </tr>';
